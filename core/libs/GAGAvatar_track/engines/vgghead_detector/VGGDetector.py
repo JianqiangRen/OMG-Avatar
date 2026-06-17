@@ -19,8 +19,8 @@ class VGGHeadDetector(torch.nn.Module):
     def _init_models(self, ):
         self.lmks_detector = LmksDetector(self._device)
         # vgg_heads_l
-        _abs_path = os.path.dirname(os.path.abspath(__file__))
-        _model_path = os.path.join(_abs_path, '../../assets/vgghead/vgg_heads_l.trcd')
+      
+        _model_path = os.path.join('./assets/vgghead/vgg_heads_l.trcd')
         self.model = torch.jit.load(_model_path, map_location='cpu')
         self.model.to(self._device).eval()
 

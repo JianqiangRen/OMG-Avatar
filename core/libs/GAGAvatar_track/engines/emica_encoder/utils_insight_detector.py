@@ -13,7 +13,7 @@ __all__ = ['InsightDetector']
 class InsightDetector:
     def __init__(self, device='cuda'):
         _abs_path = os.path.dirname(os.path.abspath(__file__))
-        _model_path = os.path.join(_abs_path, '../../assets/emica/ins_scrfd_10g_bnkps.onnx')
+        _model_path = os.path.join('./assets/emica/ins_scrfd_10g_bnkps.onnx')
         assert os.path.exists(_model_path), f"Model not found: {_model_path}."
         self._device = device
         self.det_model = RetinaFace(_model_path, input_size=320, device=device)

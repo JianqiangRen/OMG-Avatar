@@ -24,7 +24,7 @@ class FLAMEModel(nn.Module):
         self.no_lmks = no_lmks
         # print("creating the FLAME Model")
         _abs_path = os.path.dirname(os.path.abspath(__file__))
-        self.flame_path = os.path.join(_abs_path, '../../assets/flame')
+        self.flame_path = "./assets" 
         self.flame_ckpt = torch.load(
             os.path.join(self.flame_path, 'FLAME_with_eye.pt'), map_location='cpu', weights_only=True
         )
