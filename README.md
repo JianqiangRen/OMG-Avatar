@@ -85,3 +85,8 @@ If you find OMG-Avatar useful for your research or applications, please cite our
 ## Disclaimer
 
 This project is for academic research purposes only and may not be used for any commercial purposes. Users must comply with all applicable laws and regulations, including the *Interim Measures for the Administration of Anthropomorphic Interactive Services*, the *Provisions on the Administration of Deep Synthesis Internet Information Services*, and the *Personal Information Protection Law*. It is strictly prohibited to use this project for deepfakes, portrait generation without consent, virtual companion services, or any other unlawful or unethical purposes. We assume no legal liability for any downstream use of this project.
+
+
+## Acknowledgements
+This code implementation is based on these excellent open-source projects, thanks to
+[xg-chu/GAGAvatar](https://github.com/xg-chu/GAGAvatar) and [LAM](https://github.com/aigc3d/LAM).
