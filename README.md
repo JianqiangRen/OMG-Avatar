@@ -71,14 +71,12 @@ Results are written to `render_results/<MODEL_NAME>/`.
 If you find OMG-Avatar useful for your research or applications, please cite our work:
 
 ```bibtex
-@misc{ren2026omgavataroneshotmultilodgaussian,
+@inproceedings{ren2026omg,
   title={OMG-Avatar: One-shot Multi-LOD Gaussian Head Avatar},
-  author={Jianqiang Ren and Lin Liu and Steven Hoi},
-  year={2026},
-  eprint={2603.01506},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2603.01506},
+  author={Ren, Jianqiang and Liu, Lin and Hoi, Steven},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11017--11028},
+  year={2026}
 }
 ```
 
