@@ -35,6 +35,10 @@ We propose a unified model that accommodates diverse hardware capabilities and i
 
 ## Prepare Resources
 
+Download the resources from [here](https://drive.google.com/file/d/1YS_Y0j3iiuJd-7fFhphTnsE8XbNXknYU/view?usp=sharing). Place the assets under `assets/` and the ckpts under `ckpts/`.
+
+
+
 Before running inference on a custom video, execute the tracking script to generate FLAME parameters and per-frame metadata:
 
 ```bash
